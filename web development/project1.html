@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>c
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Exo+2:ital,wght@1,300&family=Josefin+Sans&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('../img/bg.jpg');
+        height: 970px;
+        background-repeat: no-repeat;
+        font-family: 'Baloo Bhai 2', cursive;
+        flex-wrap: nowrap;
+        /* (flex wrap is the major tag used to make website responsive) */
+    }
+
+    .header {}
+
+    .left {
+        display: inline-block;
+        /* border: 1px solid white; */
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        padding: 20PX 20PX;
+    }
+
+    .mid {
+        /* border: 1px solid white; */
+        display: block;
+        margin: 12px auto;
+        width: 40%;
+        font-size: 22px;
+    }
+
+    .right {
+        right: 12px;
+        top: 12px;
+        padding: 20PX 20PX;
+        display: inline-block;
+        /* border: 1px solid white; */
+        position: absolute;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 18px;
+    }
+
+    .navbar li a:hover {
+        color: rgb(124, 81, 81);
+    }
+
+    .left img {
+        padding-left: 15px;
+        width: 60px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .container {
+        display: inline-block;
+        /* border: 2px solid whitesmoke; */
+        width: 30%;
+        margin: 55px 121px;
+        padding: 22px;
+        font-size: 22px;
+    }
+
+    .container p {
+        color: wheat;
+        line-height: 0px;
+    }
+
+    .forms-grp input {
+        display: block;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 300px;
+        margin: 5px;
+        padding: 5px;
+        ma
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="../img/logo.png" alt="">
+            <div>ARISE WATER</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">CART</a> </li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <form action="search">
+
+                <INPUT type="text" name="search" placeholder="search here"> </INPUT>
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <H3>ARE YOU STRUGLING IN FINDING HEALTHY PACKAGED WATER</H3>
+        <p>order now 20 ltr quality water bottle</p>
+        <form action="noaction.php">
+            <div class="forms-grp">
+                <input type="number" name="" placeholder="name">
+            </div>
+            <div class="forms-grp">
+                <input type="number" name="" placeholder="location">
+            </div>
+            <div class="forms-grp">
+                <input type="number" name="" placeholder="enter liter">
+            </div>
+            <div class="forms-grp">
+                <input type="number" name="" placeholder="select date of delivery">
+
+            </div>
+            <button>Book</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

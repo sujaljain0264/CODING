@@ -1,0 +1,62 @@
+
+
+/* Only Mobile */
+/* @media (min-width:320px) and(max-width:48opx) {
+
+@media  (min-width:480px)and(max-width:768px) {
+    
+}
+@media (min-width:769px)and (max-width:1024px) {
+    
+}
+@media (min-width:1200) and(max-width:1920px) {
+header{
+    width:100%;
+}
+    
+} */
+
+body {
+    width: 1200px;
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    padding:5px ;
+    margin: 2px 2px;
+}
+.left{
+    display: inline-block;
+}
+
+.right {
+    overflow: auto;
+    display:inline-block ;
+    width: 44%;
+    float: right;
+    /* right:200px; */
+    /* border: 2px solid black; */
+}
+
+.navbar li {
+    display: inline-block;
+}
+}
+
+.navbar li a {
+    
+}
+.right ul li a {
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.slash :after {
+    content: " /";
+    color: red;
+    font-family: monospace;
+    font-size: 20px;
+}
+.container{
+    border:2px solid green;
+}
